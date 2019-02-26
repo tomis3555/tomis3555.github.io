@@ -1,0 +1,185 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+#container {
+  background-color: white;
+  width: 1200px;
+  height: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color:  #333;
+
+
+
+}
+
+header h1 {
+  padding-top: 10px;
+}
+#welcome h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+
+
+}
+
+#navigation {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+
+}
+
+
+
+#navigation h3 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  float: left;
+  margin-left: 150px;
+  margin-right: 20px;
+  border: 1px transparent white;
+  border-radius: 0px;
+  text-decoration: none;
+}
+#navigation h3:hover {
+  background-color: #111;
+}
+
+#next {
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 500px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  text-decoration:none;
+
+}
+
+#next :hover {
+  background-color: #111;
+}
+
+#main-intro {
+  background-color: #333;
+  width: 1200px;
+  height: 381px;
+}
+
+#main-intro-top {
+  text-align: center;
+}
+#main-intro-left {
+  display: inline-block;
+  width: 300px;
+  height: 457px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 28px;
+  color: white;
+  background-color: #333;
+  margin-left: 150px;
+  margin-right:100px;
+  margin-bottom: 20px;
+}
+
+.intro-img {
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 150px;
+  margin-left: 100px;
+  float: right;
+  border: 2px solid black;
+}
+
+#interests {
+  text-align: center;
+
+
+}
+.interest-img {
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.car-img {
+ display: inline-block;
+ border: 2px solid black;
+ width: 300px;
+ height: auto;
+ margin-top: 50px;
+ border-radius: 5px;
+ margin-right: 150px;
+ margin-left: 100px;
+ float: right;
+
+
+}
+
+#nissan-text {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #333;
+  color: white;
+  width: 300px;
+  height: 457px;
+
+
+
+}
+
+#schools {
+  text-align: center;
+  border: 0px solid black;
+  width: auto;
+}
+
+#work-intro {
+  text-align: center;
+
+
+}
+
+
+footer{
+  text-align: center;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color:  #333;
+  color: white;
+  height: 150px;
+  margin-top: 20px;
+}
+
+footer h3 p{
+  color: white;
+  text-align: center;
+}
+
+.footer-logo {
+  height:40px;
+  width: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  align: center;
+}
